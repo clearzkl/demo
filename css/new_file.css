@@ -1,0 +1,106 @@
+ body {
+ 	-webkit-font-smoothing: antialiased;
+ 	background-color: #fff;
+ 	font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+ 	color: #666
+ }
+ blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {
+ 	margin: 0;
+ 	padding: 0
+ }
+ 
+ body,button,input,select,textarea {
+ 	font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+ 	-ms-overflow-style: scrollbar;	
+ }
+ button,h1,h2,h3,h4,h5,h6,input,select,textarea {
+ 	font-size: 100%
+ }
+ address,cite,dfn,em,var {
+ 	font-style: normal;	
+ }
+ code, kbd, pre,samp {
+ 	font-family: courier new, courier, monospace
+ }
+ small {
+ 	font-size: 12px
+ }
+ ol,ul {
+ 	list-style: none
+ }
+ a {
+ 	text-decoration: none
+ }
+ a:hover {
+ 	text-decoration: underline
+ }
+  sup {
+ 	vertical-align: text-top
+ }
+ 
+ sub {
+ 	vertical-align: text-bottom
+ }
+ 
+ legend {
+ 	color: #000
+ }
+ 
+ fieldset,img,input{
+ 	border: 0
+ }
+ 
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing: 0
+ }
+.overflow {
+ 	white-space: nowrap;
+ 	text-overflow: ellipsis;
+ 	overflow: hidden;
+ }
+ .hide,.none {
+ 	display: none
+ }
+ 
+ .clearfix:after {
+ 	visibility: hidden;
+ 	clear: both;
+ 	display: block;
+ 	content: ".";
+ 	height: 0
+ }
+ .clearfix {
+ 	*zoom: 1
+ }
+ .fl {
+ 	float: left
+ }
+ 
+ .fr {
+ 	float: right
+ }
+ 
+ .al {
+ 	text-align: left
+ }
+ 
+ .ac {
+ 	text-align: center
+ }
+ 
+ .ar {
+ 	text-align: right
+ }
+ 
+.mod_lazyload {
+ 	background-image: url(//misc.360buyimg.com/mtd/pc/index/gb/images/lazyload.gif)
+ }
+ 
+ .loading,.mod_lazyload,	background-repeat: no-repeat;
+ 	background-position: 50% 50%
+ }
+ 
+ .loading,.mod_loading {
+ 	background-image: url(//misc.360buyimg.com/mtd/pc/index/gb/images/loading.gif)
+ }
